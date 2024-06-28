@@ -2,6 +2,10 @@
 
 > Gm, yeni bir Node Point > All ile buluşuyoruz.
 
+> Allora'nın worker/price bot'unu kuruyoruz bugün.
+
+> Benzer içerikler sohbetler ve güncellemler için [telegramdayız](https://t.me/RuesAnnouncement).
+
 <details>
   <summary> <h1> Yatırımı hakkında </summary> </h1>
 
@@ -278,9 +282,24 @@ docker compose build
 docker compose up -d
 ```
 
+#
+
+> `docker ps` ile aratıp node-worker'imizin container id'iyi alalım.
 
 
+<img width="444" alt="Ekran Resmi 2024-06-28 12 59 20" src="https://github.com/ruesandora/Allora/assets/101149671/e69e844d-a3da-4b76-9ead-930ce087afb9">
 
+#
+
+> `docker logs -f container_id` komutunu düzenleyip aratalım.
+
+<img width="674" alt="Ekran Resmi 2024-06-28 13 00 23" src="https://github.com/ruesandora/Allora/assets/101149671/389e73a4-9e5f-4701-9b79-d22b7e5654bb">
+
+> Success çıktımızı aldıysak tebrikler.
+
+#
+
+> Allora puanlarımız her gün güncellenerek [buraya](https://app.allora.network?ref=eyJyZWZlcnJlcl9pZCI6IjBlNWRhMjlmLTc3YjItNDQ2NS1hYTcxLTk0NWI3NjRhMTA0ZiJ9) yansıyacaktır.
 
 
 
