@@ -10,14 +10,11 @@ docker stop İD
 docker rm İD
 # idleri düzenleyerek allora için olanları temizliyoruz.
 ```
+
 <img width="427" alt="Ekran Resmi 2024-07-03 11 48 09" src="https://github.com/ruesandora/Allora/assets/101149671/d4c0c0fe-6382-4253-88a6-e591feb5748f">
 
+#
 
-Allora-Chain Dizinine Gir
-
-```console
-cd allora-chain 
-```
 Basic-coin-prediction-node Dizinine Gir 
 
 ```console
