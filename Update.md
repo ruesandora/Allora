@@ -15,6 +15,13 @@ docker rm İD
 
 #
 
+Allora-Chain Dizinine Gir
+#
+
+```console
+cd allora-chain 
+```
+
 Basic-coin-prediction-node Dizinine Gir 
 
 ```console
