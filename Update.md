@@ -21,6 +21,8 @@ Ya Allora-Chain dizininin içinde olacak Yada Ana dizinde bulunacak.
 
 Terminalinize girdiniz. " ls " komutunu girdiniz eğer Basic-coin-prediction-node Dizini yoksa Allora-Chain dizininin içindedir. 
 
+Eğer "ls" yaptığınızda Basic-coin-prediction-node dizini bulunuyorsa direkt dizine girebilirsiniz.
+
 
 Allora-Chain Dizinine Gir
 #
