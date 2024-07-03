@@ -289,6 +289,8 @@ docker compose up -d
 
 <img width="444" alt="Ekran Resmi 2024-06-28 12 59 20" src="https://github.com/ruesandora/Allora/assets/101149671/e69e844d-a3da-4b76-9ead-930ce087afb9">
 
+
+> `docker ps` ile arattığınızda node-worker çıkmıyorsa `docker ps -a` ile deneyin.
 #
 
 > `docker logs -f container_id` komutunu düzenleyip aratalım.
