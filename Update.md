@@ -15,7 +15,7 @@ docker rm İD
 
 #
 
-Şimdi bizim Basic-coin-prediction-node dizinine girmemiz lazım - Repodan kurmuşsundur komut atlamışsındır vb. ihtimaller için 2 tarafıda ekledik.
+Şimdi bizim Basic-coin-prediction-node dizinine girmemiz lazım - Rues'in repoda cd komutu ile ana dizine dönmeden Allora dizini içerisinde kurmuşsundur vb. ihtimaller  için 2 tarafıda ekledik.
 
 Ya Allora-Chain dizininin içinde olacak Yada Ana dizinde bulunacak.
 
@@ -23,6 +23,14 @@ Terminalinize girdiniz. " ls " komutunu girdiniz eğer Basic-coin-prediction-nod
 
 Eğer "ls" yaptığınızda Basic-coin-prediction-node dizini bulunuyorsa direkt dizine girebilirsiniz.
 
+
+Basic-coin-prediction-node Dizinine Gir 
+
+```console
+cd basic-coin-prediction-node
+```
+
+Eğer Ana Dizinde Yoksa Allora Chain Dizini üzerinden Basic-coin-prediction-node dizinine girin.
 
 Allora-Chain Dizinine Gir
 #
@@ -36,6 +44,8 @@ Basic-coin-prediction-node Dizinine Gir
 ```console
 cd basic-coin-prediction-node
 ```
+
+------------
 
 Docker-compose.yml Dosyasının İçine Girelim
 
