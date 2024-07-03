@@ -30,6 +30,8 @@ Basic-coin-prediction-node Dizinine Gir
 cd basic-coin-prediction-node
 ```
 
+-------
+
 Eğer Ana Dizinde Yoksa Allora Chain Dizini üzerinden Basic-coin-prediction-node dizinine girin.
 
 Allora-Chain Dizinine Gir
