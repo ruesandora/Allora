@@ -96,12 +96,16 @@ curl --location 'http://localhost:6000/api/v1/functions/execute' \
             {
                 "name": "ALLORA_ARG_PARAMS",
                 "value": "ETH"
+            },
+            {
+                "name": "ALLORA_BLOCK_HEIGHT_CURRENT",
+                "value": "null"
             }
         ],
         "number_of_nodes": -1,
-        "timeout": 2
+        "timeout": 10
     }
-}'
+}' | jq
 ```
 Almanız Gereken Sonuç: 
 ```console
