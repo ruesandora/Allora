@@ -160,7 +160,7 @@ services:
     healthcheck:
       test: ["CMD", "curl", "-f", "http://localhost:8000/inference/ETH"]
       interval: 10s
-      timeout: 5s
+      timeout: 10s
       retries: 12
     volumes:
       - ./inference-data:/app/data
@@ -209,7 +209,7 @@ services:
           --runtime-path=/app/runtime --runtime-cli=bls-runtime --workspace=/data/workspace \
           --private-key=/data/keys/priv.bin --log-level=debug --port=9011 \
           --boot-nodes=/ip4/172.22.0.100/tcp/9010/p2p/head-id \
-          --topic=1 \
+          --topic=allora-topic-1-worker \
           --allora-chain-key-name=testkey \
           --allora-chain-restore-mnemonic='24 KELIME BURAYA' \
           --allora-node-rpc-address=https://allora-rpc.edgenet.allora.network/ \
