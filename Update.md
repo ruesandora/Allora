@@ -1,11 +1,18 @@
 # Update
 
-Dikkat - bu update'de verilen Container Temizleme Komutu Tüm Containerleri Temizler. 
-Eğer içeride Docker içerisinde farklı Containerler varsa dikkat ediniz.
+
 
 ```console
-docker rm -f $(docker ps -a -q) && docker system prune --volumes -a -f
+# bu komut ile allora containerlerin idleri alıyoruz.
+docker ps
+
+docker stop İD
+docker rm İD
+# idleri düzenleyerek allora için olanları temizliyoruz.
 ```
+<img width="427" alt="Ekran Resmi 2024-07-03 11 48 09" src="https://github.com/ruesandora/Allora/assets/101149671/d4c0c0fe-6382-4253-88a6-e591feb5748f">
+
+
 Allora-Chain Dizinine Gir
 
 ```console
