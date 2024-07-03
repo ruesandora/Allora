@@ -15,6 +15,13 @@ docker rm İD
 
 #
 
+Şimdi bizim Basic-coin-prediction-node dizinine girmemiz lazım - Repodan kurmuşsundur komut atlamışsındır vb. ihtimaller için 2 tarafıda ekledik.
+
+Ya Allora-Chain dizininin içinde olacak Yada Ana dizinde bulunacak.
+
+Terminalinize girdiniz. " ls " komutunu girdiniz eğer Basic-coin-prediction-node Dizini yoksa Allora-Chain dizininin içindedir. 
+
+
 Allora-Chain Dizinine Gir
 #
 
