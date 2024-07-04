@@ -63,8 +63,9 @@ Buradaki TimeOut Sizde 5'dir bunu 10'a çıkaralım.
 
 Burayıda düzenleyelim 
 ```console
---topic=allora-topic-1-worker
+--topic=allora-topic-1-worker \
 ```
+connect refused hatası alanlar sonuna \ koymayı unutmayın
 Böyle Gözükecek : 
 
 ![image](https://github.com/RPCdotcom/Update/assets/141464235/e1c96158-7060-4a4b-9379-f661648a1312)
