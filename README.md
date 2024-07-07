@@ -75,6 +75,9 @@ cd allora-chain && make all
 # cüzdan oluşturma
 allorad keys add CÜZDAN_İSMİ
 # cüzdanınıza bir isim veriniz
+# cüzdan import için
+allorad keys add CÜZDAN_İSMİ --recover
+ardından önceden aldığınız 24 kelimeyi giriniz
 ````
 
 
